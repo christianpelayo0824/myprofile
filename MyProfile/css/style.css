@@ -1,0 +1,284 @@
+
+@font-face {
+    font-family: VarelaRound-Regular;
+    src: url(../fonts/VarelaRound-Regular.ttf);
+}
+
+/* Custom font classes */
+
+.regular {
+    font-family: VarelaRound-Regular;
+}
+
+/* ############################### */
+
+/* Global Variables */
+
+/* ############################### */
+
+* {
+    font-family: VarelaRound-Regular;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.container-panel {
+    width: 85%;
+    margin: auto;
+}
+
+.flow-text {
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.div-section {
+    padding-bottom: 10px;
+}
+
+.title-section {
+    margin-left: 55px;
+    padding-top: 8px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #424242;
+    font-size: 30px;
+    font-family: VarelaRound-Regular;
+    font-stretch: narrower;
+}
+
+#sample-one {
+    float: left;
+}
+
+#sample-two {
+    float: left;
+}
+
+.icon-title-wrapper {
+    margin-bottom: 20px;
+}
+
+/* ############################### */
+
+/* Information-section */
+
+/* ############################### */
+
+#information-section {
+    height: 765px;
+    border: 2px solid #03a9f4;
+    border-radius: 10px;
+    color: #03a9f4;
+}
+
+#profile-image {
+    margin-top: 20px;
+}
+
+#name-wrapper {
+    margin-top: 20px;
+}
+
+#myName {
+    letter-spacing: 1px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-stretch: narrower;
+}
+
+#name-title {
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-stretch: condensed;
+    font-weight: 300;
+    font-size: 20px;
+    font-stretch: narrower;
+}
+
+#information-section #icon {
+    padding-top: 10px;
+    padding-right: 10px;
+    float: left;
+}
+
+
+#contact-information {
+    margin-top: 130px;
+}
+
+#contact-information h6 {
+    padding: 10px 0 10px 0;
+}
+
+#information-section hr{
+    height: 1px;
+    background-color: #03a9f4;
+    border: none;
+}
+
+#icon {
+    padding-right: 10px;
+}
+
+#information-section,
+#first-section {
+    margin-top: 20px;
+}
+
+
+/* ############################### */
+
+/* about section */
+
+/* ############################### */
+
+#about-section {
+    height: 350px;
+    margin-top: 20px;
+    background: #fafafa;
+    color: #424242;
+}
+
+#about-section a {
+    background: #ff8a65;
+}
+
+#about-section p {
+    font-size: 16px;
+}
+
+/* ############################### */
+
+/* Work Experience section     */
+
+/* ############################### */
+
+#work-experience-section {
+    height: 850px;
+    background: #fafafa;
+    color: #424242;
+}
+
+#work-experience-section h6 {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-style: italic; 
+}
+
+.div-wrapper {
+    padding-left: 10px;
+    border-left: 3px solid #ff9800;
+}
+
+.div-wrapper ul {
+    padding-left: 40px;
+}
+
+.experience-wrapper p {
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+#work-experience-section p {
+    font-size: 16px;
+}
+
+ul:not(.browser-default)>li {
+    list-style-type: circle;
+}
+
+/* ############################### */
+
+/* Educational Value section     */
+
+/* ############################### */
+
+#educational-value-section {
+    height: 400px;
+    background: #fafafa;
+    color: #424242;
+}
+
+#educational-value-section h6 {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-style: italic;
+}
+
+#educational-value-section p {
+    font-size: 16px;
+}
+
+/* ############################### */
+
+/* Skill section     */
+
+/* ############################### */
+
+#skill-section {
+    background: #fafafa;
+    color: #424242;
+    height: 600px;
+}
+
+.progress .determinate {
+    background: #03a9f4;
+}
+
+.progress {
+    backgrouuppercasend: #81d4fa;
+    height: 7px;
+}
+
+/* ############################### */
+
+/* Project section     */
+
+/* ############################### */
+
+#project-section {
+    background-color: #fafafa;
+}
+
+#project-section .project-cards{
+    border-top: #03a9f4 solid 5px;
+}
+
+/* ############################### */
+
+/* Contact section     */
+
+/* ############################### */
+
+#contact-section {
+    height: 550px;
+    background-color: #fafafa;
+}
+
+/* ############################### */
+
+/* Media Queries     */
+
+/* ############################### */
+
+@media screen and (max-width: 1300px) {
+    #information-section{
+        height: 94vh;
+        width: auto;
+        position: relative;
+    }
+    #about-section,
+    #work-experience-section,
+    #educational-value-section,
+    #skill-section {
+        width: auto;
+    }
+}
