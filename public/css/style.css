@@ -328,14 +328,29 @@ ul:not(.browser-default)>li {
 
 @media screen and (max-width: 1300px) {
     #information-section{
-        height: 94vh;
+        height: 785px;
         width: auto;
         position: relative;
     }
-    #about-section,
-    #work-experience-section,
-    #educational-value-section,
-    #skill-section {
-        width: auto;
+    
+    #about-section {
+        height: 540px;    
     }
+
+    #educational-value-section {
+        height: 540px;    
+    }
+
+    #work-experience-section {
+        height: 1050px;    
+    }
+
+    #sub-footer {
+        height: 500px;
+    }
+
+    #contact-right-panel ul{
+        padding-left: 0;
+    }
+
 }
