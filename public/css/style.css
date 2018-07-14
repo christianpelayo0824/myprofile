@@ -76,10 +76,18 @@ nav {
 }
 
 nav .brand-logo {
-    color: #42a5f5;
+    color: #fafafa;
+    font-weight: 300;
+
 }
 
-nav a:hover, a:active {
+nav li>a {
+    text-transform: uppercase;
+    font-size: 0.857142857142857em;
+    font-weight: 600;
+}
+
+nav li>a:hover,li>a:active {
     color: #42a5f5;
     border-bottom: 3px solid #42a5f5;
 }
@@ -278,6 +286,20 @@ nav a:hover, a:active {
 
 #project-div .project-cards{
     border-top: #03a9f4 solid 5px;
+}
+
+#project01 {
+    background-image: url(../img/project01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+#project02 {
+    background-image: url(../img/project02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
 }
 
 /* ############################### */
